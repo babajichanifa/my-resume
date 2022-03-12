@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='UFT-8'>
+<meta name="keywords" content="CV, Medical, Developer, Profile, CSS, HTML">
+<meta name="description" content="CV">
+<meta name="author" content="Hanifa Babajic"> 
+<title>Hanifa Babajic-Resume</title> 
+</head> 
+<style>
+.head1 {
+    color: rgb(15, 11, 65); 
+    display: flex;
+align-items: center;
+justify-content: center; 
+font-size: 80px;
+}
+.first{
+    background: linear-gradient(90deg, blue, rgb(135, 173, 179), rgb(126, 212, 212));
+    width: 100%;
+    height: 300px;
+    padding-top: 20px;
+    position: relative;
+    margin-top: 30px;
+    z-index:1;  
+}
+
+h2{
+    color: blue;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+}
+#navigate {
+    position: fixed;
+    top: 0px;
+    right:3px;
+    background-color:white;
+    color: rgb(76, 89, 129);
+    width: 100%;
+    height: 40px;
+    z-index: 2;
+}
+nav li {
+    display:inline;
+    padding: 5px;
+}
+nav li :hover{ 
+    color: red;
+}
+#about {
+    position: relative;
+    font-size: 20px;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 170px;
+    width: 70%;
+    height: 70%;
+    background-color: rgb(154, 209, 209);
+    border-radius: 5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: aquamarine;
+}
+
+#me, #ed {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
+
+#contact {
+    display:flex;
+    font-size: 20px;
+    background-color: rgb(126, 212, 212);
+    width: 40%;
+    height: 40%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 0 5px rgb(171, 189, 189);
+    margin-top: 60px;
+    padding: 10px;
+    position: relative;
+}
+
+#education{
+    display: flex;
+    flex-direction:column;
+    font-size: 20px;
+    background-color: rgb(126, 212, 212);
+    width: 50%;
+    height: 110%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 0 5px rgb(171, 189, 189);
+    padding: 10px;
+    position:relative;
+}
+#info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 300px;
+}
+
+.container2 {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#skills {
+display: flex;
+background-color: rgb(126, 212, 212);
+box-shadow: 10px 10px 0 5px rgb(171, 189, 189);
+font-size: 20px;
+border-radius: 5px;
+height: 25%;
+width: 60%;
+margin-top: 70px;
+padding: 10px;
+position: relative;
+}
+.interests {
+display: flex;
+flex-direction: column;
+font-size: 20px;
+background-color: rgb(126, 212, 212);
+box-shadow: 10px 10px 0 5px rgb(171, 189, 189);
+border-radius: 5px;
+width: 30%;
+height: 50%;
+margin-bottom: 50px;
+padding: 10px;
+position: relative;
+}
+body {
+    background-color: rgb(139, 170, 182);
+    max-width: 100%;
+    height: auto;
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+    
+}    
+#footer {
+    display: flex;
+    justify-content: flex-end;
+    width:100%;
+    height: 40px;
+    background-color: transparent;
+    
+}
+
+
+</style>
+<!--I added social media item to the navigation bar and linked it to the footer. I added some meta tags. I used background function "linear-gradient" on the element. I also tried to add a profile picture but not successfully.-->
+<body>
+    <nav id="navigate">
+        <ul>
+            <li><a href="#about"><strong>About me</strong></a></li>
+            <li><a href="#contact"><strong>Contact</strong></a></li>
+            <li><a href="#footer"><strong>Social media</strong></a></li>
+            
+        </ul>
+    </nav>
+    <div class="first">
+    <h1 class="head1">
+        Hanifa Babajic
+    </h1>
+    <hr>
+    <h2 style="font-family: Arial, Helvetica, sans-serif;">
+        Medical doctor
+    </h2>
+    </div>
+    <br>
+    <div id="about">
+    <h1 id="me">About me:</h1>
+    <div id="about-paragraph">
+    I can say, I am ambitious about my career. I am willing to learn and be better at my job every day. I am an empath so it helps to understand the patients am working with. The patients often say that I am easy to communicate with.
+    </div>
+</div>
+<br>
+
+<div id="info-container">
+<div id="education">
+ <h1 id="ed">Education:</h1>
+ <em><strong>2021:</strong></em>
+ <span>
+     Started BILD-IT course for software developing.
+ </span>
+ <br>
+<em><strong>2015-2021:</strong></em>
+<span>
+    University in Tuzla, Medical faculty in Tuzla.
+    Medical doctor.
+</span>
+<br>
+<em><strong>2011-2015:</strong></em>
+<span>
+    Medical High school in Tuzla.
+    Medical technician.
+</span>
+</div>
+<div id="contact">
+    If you would like to hire me, here are my contact info:
+    <ul>
+        <li><strong>Phone number:</strong> 062881875</li>
+        <li><strong>E-mail:</strong> babajichanifa@gmail.com</li>
+    </ul>
+</div>
+    </div>
+    <div class="container2">
+<div id="skills">
+<h1 style="font-family: Arial, Helvetica, sans-serif; color: blue;">Skills:</h1>
+<ul>
+<li>diagnosis and treatment of different diseases</li>
+<li>anamnesis-interviewing patients about their current disease</li>
+<li>physical exams of patients</li>
+<li>good knowledge of English</li>
+<li>basic knowledge of HTML and CSS</li>
+</ul>
+</div>
+<div class="interests">
+<h1 style="font-family: Arial, Helvetica, sans-serif; color: blue;">Personal interests:</h1>
+<p>I like walking in nature, riding a bike, reading books, cooking and painting. </p>
+</div>
+</div>
+<footer id="footer">
+    <a href="https://www.facebook.com/hanifa.babajic" target="blank"><img class="image" src="https://www.newscenter1.tv/content/uploads/2021/04/j/t/ac573b439cde3dec8ca1c6739ae7f628.jpg" alt="facebook page icon"></a>
+    <a href="https://www.instagram.com/just_brinox/" target="blank"><img class="image" src="https://thumbs.dreamstime.com/b/new-instagram-camera-logo-icon-vector-modern-gradient-design-illustrations-white-background-new-instagram-camera-logo-icon-136839821.jpg" alt="instagram icon"></a>
+</footer>
+
+</body>
+</html>
